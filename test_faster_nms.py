@@ -43,5 +43,5 @@ def py_cpu_nms(dets, thresh):
         #上头的iou是从1：开始算的 所以得到的inds的个数并没有去除当前的order[0]
         order = order[inds + 1]
 
-        return keep
+     return keep
 
